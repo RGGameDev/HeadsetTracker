@@ -66,3 +66,7 @@ This is a [freedesktop `.desktop` entry](https://specifications.freedesktop.org/
 ## Usage
 
 Once installed and running, HeadsetTracker sits in the system tray. Click the icon for tooltip status, or right-click for the **Scan Now** / **Exit** menu.
+
+## Future Expansions
+
+- **Multi-headset device selection** — currently HeadsetTracker always tracks the first device `headsetcontrol` reports. On systems with multiple headsets connected at once, add a way to select which specific device to track (e.g. a tray menu entry listing detected devices or multiple tray entries per device).
