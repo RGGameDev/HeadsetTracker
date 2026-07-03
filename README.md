@@ -70,3 +70,4 @@ Once installed and running, HeadsetTracker sits in the system tray. Click the ic
 ## Future Expansions
 
 - **Multi-headset device selection** — currently HeadsetTracker always tracks the first device `headsetcontrol` reports. On systems with multiple headsets connected at once, add a way to select which specific device to track (e.g. a tray menu entry listing detected devices or multiple tray entries per device).
+- **Device controls** - Integrate more functionalities from headsetcontrol to do things like affect sidetones or volume. Right now, there are a bunch of ways to do this, so it's not a priority.
