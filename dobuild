@@ -1,0 +1,5 @@
+cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local/bin/HeadsetTracker
+cmake --build build
+sudo cmake --install build
+mkdir -p ~/.config/autostart
+cp HeadsetTracker.desktop ~/.config/autostart/HeadsetTracker.desktop

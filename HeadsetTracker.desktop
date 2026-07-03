@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=HeadsetTracker
+Exec=/usr/local/bin/HeadsetTracker/HeadsetTracker
+Terminal=false
+X-KDE-autostart-after=panel
